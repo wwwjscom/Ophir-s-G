@@ -1,0 +1,71 @@
+body.home
+{
+	margin-left 		: 35px;
+	margin-top 		: 15px;
+}
+
+body.home h1
+{
+	font-variant 		: small-caps;
+}
+
+body.home img.profile
+{
+	border 			: 2px solid black;
+	padding 		: 2px;
+	float 			: left;
+}
+
+
+body.home img.gt
+{
+	border 			: 2px solid black;
+	margin-left 		: 25px;
+	height 			: 200px;
+
+}
+
+body.home p.bio
+{
+	padding-left 		: 230px;
+	width 			: 450px;
+	text-align 		: justify;
+}
+
+body.home ul
+{
+	display 		: inline;
+	list-style 		: none;
+}
+
+body.home li
+{
+	display 		: inline;
+	list-style 		: none;
+	padding 		: 35px;
+	font-variant 		: small-caps;
+}
+
+body.home li a
+{
+	font-weight 		: bold;
+	color 			: blue;
+	text-decoration 	: none;
+	border-bottom 		: 2px solid blue;
+}
+
+body.home li a:hover
+{
+	font-weight 		: bold;
+	color 			: green;
+	text-decoration 	: none;
+	border-bottom 		: 2px solid green;
+}
+
+body.home hr
+{
+	border 			: 0px;
+	border-bottom 		: 3px solid black;
+	width 			: 700px;
+	float 		        : left;
+}
