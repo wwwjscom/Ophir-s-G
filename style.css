@@ -2,6 +2,12 @@ body.home
 {
 	margin-left 		: 35px;
 	margin-top 		: 15px;
+	font-family 		: Arial,Helvetica,Garuda,sans-serif;
+}
+
+body.home .wrapper
+{
+	width: 850px;
 }
 
 body.home h1
@@ -11,39 +17,67 @@ body.home h1
 
 body.home img.profile
 {
+	margin 			: 0 0 0 2px;
 	border 			: 2px solid black;
 	padding 		: 2px;
 	float 			: left;
 }
 
 
-body.home img.gt
+body.home .wrapper img.g
 {
-	border 			: 2px solid black;
-	margin-left 		: 25px;
-	height 			: 200px;
-
+	height 			: 100px;
+	float 			: right;
 }
 
-body.home p.bio
+body.home .wrapper p.bio
 {
-	padding-left 		: 230px;
-	width 			: 450px;
+	width 			: 475px;
+	padding 		: 0 0 0 220px;
 	text-align 		: justify;
 }
 
+body.home p.address
+{
+	float 			: left;
+	width 			: 200px;
+	height 			: 60px;
+	font-size 		: 0.8em;
+	text-align 		: center;
+	padding 		: 0 10px 0 0;
+	border-right 		: 1px solid black;
+}
+
+body.home p.contact
+{
+	float 			: left;
+	width 			: 200px;
+	height 			: 60px;
+	font-size 		: 0.8em;
+	text-align 		: center;
+	border-right 		: 1px solid black;
+}
+
+
+/*****************
+ * Nav Links
+ ****************/
 body.home ul
 {
+	height 			: 60px;
+	padding 		: 15px 0 0 0;
 	display 		: inline;
 	list-style 		: none;
+	float: left;
 }
 
 body.home li
 {
 	display 		: inline;
 	list-style 		: none;
-	padding 		: 35px;
-	font-variant 		: small-caps;
+	padding 		: 20px;
+	/*font-variant 		: small-caps;*/
+	font-size 		: 0.95em;
 }
 
 body.home li a
@@ -60,12 +94,4 @@ body.home li a:hover
 	color 			: green;
 	text-decoration 	: none;
 	border-bottom 		: 2px solid green;
-}
-
-body.home hr
-{
-	border 			: 0px;
-	border-bottom 		: 3px solid black;
-	width 			: 700px;
-	float 		        : left;
 }
