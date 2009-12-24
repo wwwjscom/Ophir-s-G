@@ -7,7 +7,7 @@ body.home
 
 body.home .wrapper
 {
-	width: 850px;
+	width: 710px;
 }
 
 body.home h1
@@ -21,6 +21,13 @@ body.home img.profile
 	border 			: 2px solid black;
 	padding 		: 2px;
 	float 			: left;
+}
+
+body.home img.g-cs
+{
+	float 			: left;
+	padding 		: 5px 0 0 15px;
+	margin 			: 0 250px 0 0;
 }
 
 
@@ -91,7 +98,7 @@ body.home li a
 body.home li a:hover
 {
 	font-weight 		: bold;
-	color 			: green;
+	color 			: #0099FF;
 	text-decoration 	: none;
-	border-bottom 		: 2px solid green;
+	border-bottom 		: none;
 }
