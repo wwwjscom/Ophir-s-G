@@ -40,7 +40,7 @@ body.home .wrapper img.g
 body.home .wrapper p.bio
 {
 	width 			: 500px;
-	padding 		: 0 0 0 220px;
+	margin 			: 0 0 0 220px;
 	text-align 		: justify;
 }
 
